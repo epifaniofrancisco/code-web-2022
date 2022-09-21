@@ -1,0 +1,6 @@
+Uma pagina HTML
+
+1. Contendo o Nome do vosso Artista favorito como título principal
+2. Como título de relevância 3 o estilo de música
+3. Uma lista de 3 elementos contendo os 3 últimos álbuns (link externo para o álbum)
+4. E por fim na página contendo a sua musica favorita

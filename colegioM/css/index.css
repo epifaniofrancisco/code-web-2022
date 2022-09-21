@@ -1,0 +1,16 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul,
+nav {
+	list-style: none;
+}
+
+.navbar {
+	width: 100%;
+	display: flex;
+	border: 1px solid black;
+}

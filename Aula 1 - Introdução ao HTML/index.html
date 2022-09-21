@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Introdução ao HTML5</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <a href="link.html">Link</a>
+
+    <!-- Cabeçalho -->
+    <h1>Cabeçalhos</h1>
+
+    <!-- Aqui tem um parágrafo -->
+    <p>
+        <strong>Lorem</strong> ipsum dolor sit amet consectetur 
+        adipisicing elit. A esse voluptas culpa totam 
+        perferendis, vero aspernatur dolorem nesciunt 
+        voluptatem id harum officiis corrupti eaque tenetur 
+        fugiat. Animi cumque vero molestiae.
+    </p>
+
+    <p>
+        <em>Lorem</em> ipsum dolor sit, amet consectetur adipisicing elit. Illo atque dolorum ea.
+    </p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod recusandae vero veritatis dolores earum. Ipsum minima dolorum quis dignissimos nobis repellat dolorem distinctio voluptatibus, nihil magni, quisquam architecto id. Illum recusandae aliquam saepe voluptatibus! Adipisci, ipsa fuga eum neque praesentium iste ducimus laborum dolores cumque, nemo molestias beatae itaque? Quas quod consequuntur omnis eum, nobis harum illo ut. Nesciunt explicabo quae numquam quo, at ipsa nam quidem similique adipisci quam aperiam impedit cum quod, corporis aliquid accusantium aspernatur, laboriosam officiis perferendis voluptates! 
+        Aliquam quaerat culpa, sint perspiciatis ipsum cumque.
+    </p>
+
+    <!-- Listas -->
+    <!-- Listas Ordernadas -->
+    <ol>
+        <li>Café</li>
+        <li>Chá</li>
+        <li>Pão</li>
+        <li>Manteiga</li>
+    </ol>
+
+    <!-- Lista nao ordenadas -->
+    <ul>
+        <li>Mesa</li>
+        <li>Cadeira</li>
+        <li>Banco</li>
+        <li>Sofá</li>
+    </ul>
+
+    <a href="https://www.w3schools.com/" target="_blank" class="school">W3School</a>
+    
+    <br>
+    <br>
+
+    <img src="./img/download.jpeg" alt="Uvas">
+
+    <br>
+    <br>
+    <br>
+
+    <video width="500px" height="500px" controls>
+        <source src="movie.mp4" type="video/mp4">
+        Navegador não suporta video
+    </video>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <form action="link.html" method="post">
+        <!-- input do tipo texto -->
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" required disabled id="nome" placeholder="Digite o seu nome" />
+        <br>
+
+        <!-- Input do tipo numero -->
+        <label for="idade">Idade</label>
+        <input type="number" name="idade" id="idade">
+
+        <!-- Input do tipo password -->
+        <label for="senha">Digite a sua senha</label>
+        <input type="password" name="senha" id="senha">
+
+        <br>
+        <br>
+        <br>
+
+        <label for="arquivo">Selecione o seu arquivo</label>
+        <input type="file" name="arquivo" id="arquivo">
+
+
+
+        <br>
+        <br>
+
+        <label for="comida">Comida</label>
+        <select name="comida" id="comida">
+            <option value="funge">Funge</option>
+            <option value="arroz">Arroz</option>
+            <option value="frango">Frango</option>
+        </select>
+
+        <input type="checkbox" name="comi" id="comi" value="comi"> 
+        <label for="comi">Concorda que comeu?</label>
+
+        <br>
+        <br>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
