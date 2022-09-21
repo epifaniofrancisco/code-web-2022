@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #E1E1E6;
+    background-color: #121214;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+h1 {
+    color: #8257e5;
+    margin: 15px 0;
+}
+
+p {
+    width: 500px;
+    text-align: justify;
+    margin: 20px 0;
+}
+
+ul, ol {
+    color: white;
+    list-style: none;
+    margin: 10px 0;
+}
+
+.school {
+    font-size: 25px;
+    color: #8257e5;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: #8257e5;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+input {
+    height: 30px;
+    margin-bottom: 10px;
+}
